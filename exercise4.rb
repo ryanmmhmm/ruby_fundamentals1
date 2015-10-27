@@ -2,7 +2,7 @@
 
 (1..100).each do |num|
 	if (num % 3.00) && (num % 5.00) == 0
-		puts "#{num} BitMaker"
+		puts "#{num} => BitMaker"
 	elsif num % 3.00 == 0
 		puts "#{num} => Bit"
 	elsif num % 5.00 == 0
