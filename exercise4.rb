@@ -2,11 +2,11 @@
 
 (1..100).each do |num|
 	if num % 3.00 == 0
-		puts "#{num} => Bit"
+		puts "Bit"
 	elsif num % 5.00 == 0
-		puts "#{num} => Maker"
+		puts "Maker"
 	elsif (num % 3.00 == 0) && (num % 5.00 == 0)  # highest priority
-		puts "#{num} => BitMaker"
+		puts "BitMaker"
 	else
 		puts num
 	end
