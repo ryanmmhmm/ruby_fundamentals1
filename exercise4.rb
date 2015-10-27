@@ -1,6 +1,6 @@
 ## Exercise 4 -- W1D2
 
-(1..100).each do |num| ( num + 1 )
+(1..100).each do |num|
 	if (num % 3.00) && (num % 5.00) == 0
 		puts "#{num} BitMaker"
 	elsif num % 3.00 == 0
