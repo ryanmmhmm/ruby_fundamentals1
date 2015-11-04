@@ -7,13 +7,13 @@
 price = 55.00
 
 # add tip to total ammount
-good_tip = 0.20		# 20% is a good tip!
+good_tip = 0.20   # 20% is a good tip!
 puts "A good tip for this meal is $#{price * (good_tip)} at a tip \% of #{good_tip * 100}"
 
 
 ## question 2
-a = "String"	# define a string
-b = 1					# define an integer
+a = "String"  # define a string
+b = 1         # define an integer
 
 puts "#{a + b.to_s}"  # convert integer to string to concatenate results
 
